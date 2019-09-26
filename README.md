@@ -15,65 +15,83 @@
 ## Concepto del producto
 **Responder a la ¿Para qué fue creado el sistema?**
 
-SIGA es un sistema creado para facilitar la administración de ramos para estudiantes en la USM. Esto para que los alumnos en línea puedan gestionar cosas como registrar su propio asignaturas, ver sus resultados y su horario.
+SIGA es un sistema creado para facilitar la administración de ramos para estudiantes en la Universidad Técnica Federico Santa María (UTFSM). Esto para que los alumnos en línea puedan gestionar cosas como registrar su propio asignaturas, ver sus resultados y su horario.
 
 ## Comunidad usuaria
 **¿Quien usa el sistema?, edad, sexo, etc**
 
-Los usarios son estudiantes entre 18-27 años, con que consiste de 70% hombres y 30% mujeres. Generalmente los usarios estudian ingenieria. 
+Los usarios son estudiantes entre 18-27 años los que consisten de 70% hombres y 30% mujeres. Generalmente los usarios estudian una forma de ingeniería. 
 
 ## Análisis de tareas
 **¿Qué hacen generalmente los usuarios en el sistema?
 ¿Qué es fácil/difícil de hacer?**
 
-El uso de el sistema es obligatorio para los estudiantes en la Universidad Técnica Federico Santa María. 
+### Para Estudiantes
+El uso de el sistema es obligatorio para los estudiantes en UTFSM. 
 
-En el comiencza de semstre los usuarios usan la sistema para administrar sus ramos, ver su horario personal y ver el horario para asignaturas cuando eligen ramos. A inscribir en una asignatura es fácil, pero el problema es sobre descubrir las asignaturas en SIGA, y tambien que ver sobre adapte a su horario y planes de carrera
+**uso al principio del semestre**
+Administrar sus ramos, ver su horario personal y ver el horario de asignaturas cuando elijan ramos. Inscribir asignaturas es fácil pero adaptar su horario, descubrir las asignaturas en SIGA y descubrir los planes de carrera es dificil.
 
-Además, la sistema es usa para ver su resultad por los asignaturas. _**No, se como este es facil o deficil ahora**_
+**uso durante el semestre**
+Ver su resultado por los asignaturas y ver los horarios de asignaturas para comunicar con los profesores que dictan éstos.
 
-En el final de semstre Siga es usa para evaluar los asignaturas y profesores en la final de cada semestre. _**No, se como este es facil o deficil ahora**_
+Hay una página sobre ficha personal, donde se pueden actualizar su información personal a la escuela. Es facil descubir la pagina, pero cambiar algúna información es difícil porque los usuarios, sea los alumnos, no tienen autoridad para hacer cambios. Los alumnos extranjeros tienen menos autoridades que los alumnos **local**, entonces usar el sistema es mas dificil.
 
-La página también es utilizada por la administración de la escuela para informar a los alumnos. La página para informar los estudiantes es antes de inciar sesíon, entonces nadie lee la informacion y es dificli obtener la informacíon
+**uso al fin semestre**
+Evaluar los asignaturas y profesores en la final de cada semestre.
 
-Hay una página sobre ficha personal, donde se pueden actualizar su información personal a la escuela. La página es facil a descubir, pero a cambiar algo información es difícil porque no tenemos autoridad.
-Los alumnos extranjeros tienen menos autoridades que los alumnos **local**, entonces a usar el sistema es mas dificil.
+### Para Administración
+La administración de UTFSM usa SIGA para informar a los alumnos, en genera por la página para noticias cual que el usuaria va antes de iniciar su sesíon. Sin embargo, muchos de los usuarios no leen la información y por eso, es dificil obtener la información.  
+
+### Conclusión de Usabilidad
+En general la sistema es dificil entender, por que no ofrece mucho apoyo al usuario. Este apoyo podría ser información que indica las funciónes con un breve explicación y mejor organización para facilitar navegar el sistema y sus servicios.
 
 ## Análisis de datos
 **¿Qué información muestra el sistema?
 ¿Cómo se organiza jerárquicamente? 
 ¿Cual puede ser editada?**
+La información que el sistema muestra en la pagina principal se indica en Figura 1. 
 
-**Observación 1: Disponibilidad de información general de SIGA: Aver Figura 1**
-Cuando el usuario entra https://siga.usm.cl/pag/, la sistema muestra la pagina inicial. En este página hay informacion sobre el sistema, informacion de los que pueden contactar sobre el sistema y información sobre la escuela. Pero cuando se inicie la sesión en SIGA, no se puede ver esta informacion más.
-    Esta información debe estar representada después de han inciar una sesión.
-
-**Observación 2: Dos formularios para ingresar la cuenta:  Aver Figura 1**
-El usario tiene dos ventanas para iniciar la sesión en Siga. El sistema no explica cual es la diferencia entre las dos maneras de iniciar la sesión, y el usario necesitaría más suporte para entender cual información es necesario para iniciar la sesión usando la manera a la izquierda.
-    Los dos maneras no son consistentes, y sería mejor que el servador distingue entre el sistema que cada ventana representa y no el usuario 
-
-***Figura 1***
-![Image of pagina_inicial](https://github.com/hvarg/INF322/blob/master/Siga_pagina_inicial.png)
-
-**Observación 3: Entrar datos para ingresar: Aver Figura 2**
-Si el usuario entre información incorrecta, como un nombre de usario que no existe o una contraseña falsa, el sistema no indica el error antes de que el usario presiona la flecha para iniciar la sesión.  Iniciando la sesión con información incorrecta, el sistema informa el usario del error sin decirle al usario si el error fue iniciada por el uso de un nombre de usario invalido o por la culpa de una contraseña incorrecta. En este caso, el sistema no apoya al usario para solucionar la problema.
-    Mejor sería si el sistema tenía prevención de errores.
-
-***Figura 2***
-![Image of error_iniciar](https://github.com/hvarg/INF322/blob/master/error_iniciar.png)
-
-**Observación 4: Navigación desorganizada de la cuenta: Aver Figura 3**
-Cuando el usuario inicia la sesión, el sistema muestra la página principal. El sistema muestra el nombre del usario arriba por la izquierda. La pagina principal, el home page, no tiene algún nombre. Cada vez que el usario sigue con algún tarea, para volver a la pagina principal, hay que presionar el botón "volver" abajo a la derecha.
-    Mejor sería usar algún referencia al mundo real como una casa al lado del texto "volver". 
-
-Para navigar en la sistema, siempre hay que volver a la pagina principal para eligir nueva opción. Los opciónes son tan muchos, donde algunas son superficiales. Esto podría reorganizarse en una nueva jerarquía. También las opciones sobre la evaluación de cursos podrían representarse cuando se finaliza un curso para el semestre y no todo el semestre.
-
-***Figura 3***
 ![Image of pagina_principal](https://github.com/hvarg/INF322/blob/master/Siga_First_Page.png)
+ ***Figura 1*** 
+ 
+Beca de alimentación: Ver las becas del usuario  
+Certificados: Los certificados deberán ser solicitados personalmente en la Oficina Asuntos Internacionales.  
+Resumen académico: Ver notas de los cursos y puntos aprobados.  
+Solicitudes Académicas y Peticiones: Hacer cambios en la carrera y administrar cursos no aprobados.   
+Planes de carrera: Ver el plan (cursos) de los semestres para cada carrera.  
+Avance curricular: Ver los asignaturas inscritas del semestre y las notas de las evaluaciónes.   
+Inscripción: Inscibirse en ramos (ojo: solo es posible durante el tiempo de inscripción).  
+Cambio de mención: Cambio de Mención/Especialización, dónde el alumno puede cambiar especialización.  
+Postulación Intercambio: Enviar su solicitud para ir al intercambio.  
+Horario asignaturas: Ver el horario de cada asignatura dictada el semestre actual.   
+Asignaturas inscritas - Ver información sobre las asignaturas inscritas, comó las siglas, nombre del curso, número de créditos, nota final, evaluaciónes y el horario de los asignaturas.  
+Correo y Credencial USM - ver su RUT, nombre, correo USM y código QR Credencial.  
+Horario personal - Horario de las asignaturas inscritas del usuario.  
+Deuda - Deudas actuales del usuario.  
+Autorización académica - Inscripciónes que han requerido autorización y la razón de ellos.  
+Consulta de Pagarés - Compromisos del usuario para pagar en una fecha más tarde por sus estudios en UTFSM.  
 
-**Observación 5: Descripciones de opciones en el sistem: Compara Figura 4 a Figura 5**
-En el sistema, también hay descripciones de cada opción que se muestra cuando el índice está encima del enlace. Algunas descripciones ofrecen más información para cada opción que otras
-    Sería mejor tener estas descripciones más visibles para ayudar al usuario entender la función de cada opción, o tener un icon con "?" este símbolo para indicar que hay más información
+## Identificación de falencias y oportunidades de mejora
+**¿Qué queremos cambiar? 
+¿Por qué?**
+
+### Noticias
+Cuando el usuario entra https://siga.usm.cl/pag/, el sistema muestra la pagina inicial, como se muestra en Figura 2. En este página hay informacion sobre el sistema, información de los que se puedan contactar sobre el sistema y información sobre la universidad. Cuando se inicie la sesión en SIGA, no es posible buscar esta información de nuevo.  Entonces información clave al usuario no es muy acesible durante su uso entero del SIGA.
+
+### Ingreso
+El usario tiene dos ventanas para iniciar la sesión en SIGA, como se muestra en  Figura 2. El sistema no explica la diferencia entre las dos maneras de iniciar la sesión (esto es las maneras de ingresar a la cuenta viene de que antiguos y nuevos usarios no están en la misma servidor), y el usario necesitaría más suporte para entender cual información es necesario para iniciar la sesión usando la manera a la izquierda.
+
+![Image of pagina_inicial](https://github.com/hvarg/INF322/blob/master/Siga_pagina_inicial.png)
+***Figura 2***
+
+### Navigación desorganizada - Maybe change the photo to show the volver
+Cuando el usuario inicia la sesión, el sistema muestra la página principal, como se muestra en  Figura 1. El sistema muestra el nombre del usario arriba por la izquierda. La página principal, el inicio, no tiene ningún nombre. Cada vez que el usario sigue con alguna tarea, para volver a la pagina principal, hay que presionar el botón "volver" abajo a la derecha.
+
+Si no se usa el botón *volver*, se le desconecta de la página y hay que inicializar una nueva sesión. Se espera que pueda ir y venir en una página, por eso puede ser una experiencia irritante al usar el sistema. 
+
+### Descripciones de opciones en el sistema: Compara Figura 4 a Figura 5**
+En el sistema, también hay descripciones de cada opción que se muestra cuando el índice está encima del enlace. Algunas descripciones ofrecen más información para cada opción que otras. Debe cambiar este aspecto del sistema porque no le informa al usuario consitentemente la función de cada opción del sistema.
 
 ***Figura 4: Descripción más breve y redundante***
 ![Imagen_de_Descripción_Breve](https://github.com/hvarg/INF322/blob/master/SIGA_descriOpcionBreve.png)
@@ -81,96 +99,107 @@ En el sistema, también hay descripciones de cada opción que se muestra cuando 
 ***Figura 5: Descripción más informativa***
 ![Imagen_de_Descripción_Informativa](https://github.com/hvarg/INF322/blob/master/SIGA_descriOpcionmasUtil.png)
 
-**Observación 6: Opciones que no sirven al usuario estan disponible: Aver Figura 6**
-Aveces hay opciones disponibles para elegir, pero cuando se haga clic el próximo página vuelve un noticia que el alumno no tiene aceso a esta opción por tal razón o otra
-    Sería mejor que el usuario no tiene la habilidad de elegir estas opciones y la razón se puede ser mostrado con la descripción
-
-***Figura 6***
-![Imagen_de_Página_Inutil](https://github.com/hvarg/INF322/blob/master/SIGA_Paginanosirve.png)
-
-## Identificación de falencias y oportunidades de mejora
-**¿Qué queremos cambiar? 
-¿Por qué?**
-
-* Inscripción
-
-Cuando el usario quiere inscribirse a ramos fuera del tiempo para inscripción, el sistema no indica al usario que no es posible. Mejor sería si la sistema tuviera algún tipo de indicación si esta fuera del tiempo para hacer incribciónes para mejorar la visibilidad del estado del sistema. Una opción sería usar un reloj con un texto diciendo "XX dias hasta que es posible hacer inscripciónes". 
+### Inscripción
+Cuando el usario quiere inscribirse a ramos fuera del tiempo para inscripción, el sistema no indica al usario que no es posible. Se necesita cambiar este aspecto del sistema porque sin esta información puede confudir y molestar al usuario.
 
 ![Image of siga_inscripcion](https://github.com/hvarg/INF322/blob/master/siga_incripcion.png)
 
-* Cambiar contraseña
+### Cambiar contraseña
+No es posible cambiar contraseña cuando has iniciado la sesión. Para cambiar contraseña hay que presionar "¿problemas con su contraseña?", cómo muestra Figura 8. Desde allá, hay que presionar "https://pasaporte.usm.cl/id/", y esto te lleva al interfaz en Figura 9 dónde tienes que presionar "Cambiar Contraseña". Presionar esto, te lleva al interfaz de Figura 10, dónde tienes que inscribir tus credenciales. Cuando lo has hecho, finalmente llevas al paso en Figura 11 donde puedes cambiar la contraseña. 
 
-No es posible cambiar contraseña cuando has iniciado la sesión. Para cambiar contraseña hay que presionar "¿problemas con su contraseña?" **Aquí debemos poner capturas de pantalla para cada paso necesario para cambiar contraseña**
+FIGURA 8 para cambiar contraseña
+FIGURA 9 para cambiar contraseña
+FIGURA 10 para cambiar contraseña
+FIGURA 11 para cambiar contraseña
 
-* Botón de volver
+### Horario Asignaturas
+En esta parte del SIGA, nos falta búsquedor de asignaturas. Además, cuando se busque asignaturas, se obtenga demasiado información (esto es el profesor o cupos para cada curso).  Esta cantidad de información además puede confudir al usuario o causar demoras inecesarias en el proceso de buscar
 
-No se puede volver a la página principal sin usar el botón *volver*. Te desconectas de la página y tienen que inicializar una nueva sesión. Se espera que pueda ir y venir en una página, por eso puede ser una experiencia irritante al usar el sistema. El botón también debe cambiar al símbolo de una casa, porque simbolo de una casa significa volver en las plataformas digitales
+### Demasiado visibilidad de ficha personal
+Es demasiado fácil a cambiar fichas personales y verlos cuando se tenga aceso a una cuenta.
 
-* Información
-
-La informacion sobre la escuela debe venir despues de inciar una sesción. Hacer un cuadro de información a la izquierda para las alternativas de navegación cuando se haya iniciado una sesión. Esto facilitará que el alumno lea la información.
-
-* Navegar
-
-La página de navegación debe reestructurarse. Debe haber un menú en el que pueda cambiar su configuración personal para siga, su información personal y poder cerrar sesión. También debería haber opciones de navegación como hay ahora, pero algunos temas deberían fusionarse. Como los que conciernen a tus resultados académicos.
-
-Además, debería haber un cuadro con enlaces a páginas como aula que se usa para dar información en casi todos los cursos.
-
-* Horario Asignaturas
-
-Aquí nos falta un botón de búsqueda para buscar asignaturas que sobre algo. Obtenemos demasiada información, no hay necesidad de saber quién es el profesor o cupos para cada curso. Cuando encontremos el curso que nos gusta, deberíamos poder hacer clic en él para obtener más información en una cuadro a la izquierda en la misma pagina. Aquí está la información sobre el profesor y el horario puede estar. También debe haber un *link* con la dirección de correo electrónico al profesor.
-
-* Seguridad de ficha personal
-
-Hasta este punto es muy fácil a cambiar fichas personales y verlos cuando se tenga aceso a una cuenta. Se debe requiere al usuario confirmar su identidad cuando quiera ver o cambiar las fichas.  En cualquier otro caso, se debe ocultar esta información.
-
-* Notificación de perdir sesión
-
-Debe ser una opción para notificar al usuario que la sesión estaría perdida por una falta de actividad para que el usuario confirme su presencia y continua la sesión sin entrar su información de nuevo.
+### Falta de entender límites temporales de sistem
+El usuario puede pedir su sesión, pero no hay información del límite del tiempo que queda al usuario hasta se le pierde su sesión por una falta de actividad.  Entonces, puede irritar al usuario cuando tiene que entrar su información de nuevo.
 
 ## Propuesta
 **Seleccionar que partes de la interfaz podemos mejorar.**
 
-### Pagina primera para iniciar sesión
-En la primera página nos gustaría tener solo la nueva opción para iniciar una sesión. Esto debe estar en el medio de la página para que sea fácil acceder desde la computadora y el teléfono.
+### Primera página antes de iniciar sesión
+En la primera página nos gustaría tener solo una opción para iniciar una sesión con el formato de la más reciente manera de ingresar. Esto debe estar en el medio de la página para que sea fácil acceder desde la computadora y el teléfono.
 
-### Pagina principal
+### Página principal
 
-La página principal debe estar formada por tres partes; el borde superior, un menú en el lado izquierdo y un pequeño espacio para noticas.
+En la pagina principal hay demasiadas opciónes que se pueden reorganizar en una nueva jerarquía. El Usuario estará arriba en el borde superior a la derecha, y opciones como Noticias, Ramos y Solicitudes externos estarán en una jerarquía a la izquierda.
 
 ![Image_of_page_strukture](https://github.com/hvarg/INF322/blob/master/Estructura.png)
 
 #### El borde superior
 
-En el izquierdo del borde superior debe haber el logo de USM con SIGA, esto es para mostrar la página en la que se encuentra. Al lado del logotipo debe haber un ícono de una casa para ir a la pagina principal. Aun cuando estás en la página principal, tiene una continuidad en el borde.
+A la izquierda del borde superior debe haber el logo de USM con SIGA, esto es para mostrar la página en la que se encuentra. Al lado del logo debe haber un ícono de una casa para ir a la página principal. Entonces, cuando se este en la página principal, se tiene una continuidad en el borde.
 
-En el centro debe haber un motor de búsqueda para buscar cosas que desea encontrar en la página. Consistirá en un cuadro de búsqueda y un logo de lupa.
+En el centro debe haber un busquedor motor de busca para buscar cosas que desea encontrar en la página. Consistirá en un cuadro de busca y un logo de lupa. Cuando buscas por ejemplo "inscripción", el menú a la izquierda va a indicar donde estas, porque el titulo "Ramos" va a abrirse y el titulo "Inscripción" toma  otra color para indicar que ahora estás en "Inscripción". 
 
-En la derecha habrá una imagen con su nombre, que muestra en qué cuenta ha iniciado sesión. Esto también mostrará un menú haciendo clic en él. El menú contendrá opciones con respecto a su fecha personal, su horaria y su asginaturas. Al lado de su nombre y imagen, hay una icon de salir para cerrar sesión.
+En la derecha habrá una imagen con su nombre, que muestra en qué cuenta ha iniciado sesión. Esto también mostrará un menú haciendo un clic. El menú de usarios, contendrá opciones con respecto a su ficha personal, su becas y mas opciones que estan explicada en los puntos  abajo. (Al lado de su nombre y imagen, hay una icon de salir para cerrar sesión.)
+
+##### Usuario  
+* **Ficha Personal**
+Incluye la información que antes estaba en Ficha Personal y Correo y Credencial USM
+* **Plan Académico**
+Tiene el interfaz de lo que antes era Avance Curricular, pero está fusionado con la función de Resumen Académico. Avance Curricular y Resumen Académico contienen los mismos datos. Basado en la interfaz que tiene Avance Curricular, agregamos un botón diciendo "generar PDF de Resumen Académico", que genera la información que muestra Avance Curricular a un PDF como la que mostraba Resumen Académico. 
+* **Becas**  
+Administrar y ver los becas de alimentación del usuario. 
+* **Deuda**  
+Los deudas a la universidad del usuario. 
+* **Consulta de Pagares**  
+Trato de pagar - economía. 
+* **Cerrar sesión (el logout)**  
 
 #### El menú
 
-El menú principal estaría en el lado izquierdo de la página. Solo debe contener el tema general, como inscripsion, resultados y peticion. Donde todos los temas deben tener un logo que propósito de los temas. Cuando haga clic en uno de los temas, aparecerán más opciones. Sin embargo, deberían aparecer en el área parte principal. También podría ser una frase corta bajo los subtemas para explicar allí propósito.
+El menú principal estaría en el lado izquierdo de la página. Solo debe contener el tema general, como ramos, solicitudes externos y noticias. Donde todos los temas deben tener un logo de su propósito. Cuando haga clic en uno de los temas, aparecerán más opciones. Sin embargo, deberían aparecer en el área central. También podría ser una frase corta bajo los subtemas para explicar allí propósito.
 
-El menú siempre debe estar abierto mostrando los temas principales. Esto es para obtener una continuación del diseño en la página. También facilitará la navegación sin tener que volver a la página de inicio cada vez.
+El menú siempre debe estar abierto mostrando los temas principales. Tambien la opcion que han entrada, va estar en una otro color para indicar donde estan. Esto es para facilitar y obtener una continuación del diseño en la página. También facilitará la navegación sin tener que volver a la página de inicio cada vez.
+
+Abajo es una explicasion de la nueva jerarquía para el menú principal, aqui habemos cambiado opciones para tener un menú mas facil a entender. 
+
+##### Jerarquía
+###### Noticias
+Noticias relevantes para el usuario, cómo fechas para el semestre o notas ingresadas de evaluaciónes.  También se muestra la información 
+de la página principal. 
+
+###### Ramos
+* **Busqueda de ramos**
+Incluyendo la funcionalidad/información que antes estaba en Horario Asignaturas y Planes de Carrera.
+
+P: Parte de la funcionalidad de la sección del Horario Asignaturas que queremos cambiar es cuandose encuentra el curso que le guste, se debería hacer clic en la resuelto para obtener más información (como la información dicha) en un cuadro a la izquierda en la misma pagina. Aquí está la información sobre el profesor y el horario puede estar. También debe haber un *link* con la dirección de correo electrónico al profesor.
+
+Aquí hay que ver el horario de cada asignatura dictada el semestre actual y también ver el plan (cursos) de los semestres para cada carrera
+* **Asignaturas inscritas**
+Ver información sobre las asignaturas inscritas, comó las siglas, nombre del curso, número de créditos, nota final, evaluaciónes y el horario de los asignaturas.
+* **Inscripción**
+Inscibirse en ramos, soló es posible durante el tiempo de inscripción. Necesita una explicación si no se este fuera del tiempo de inscripción. Una opción sería usar un reloj con un texto diciendo "XX dias hasta que es posible hacer inscripciónes". Es importante que el usuario puede elegir cuales días quiere tener clases, por ejemplo que cada día tiene un checkbox y desde allí solo muestra los ramos que no tiene clases estas días. Esto mejora la visibilidad del estado del sistema. 
+
+###### Solicitudes externos
+* **Certificados**  
+* **Cambio de mención**  
+Cambio de Mención/Especialización, dónde el alumno puede cambiar especialización. 
+* **Solicitudes Académicas y Peticiones**
+* **Matrícula Sin Ramos**
+* **Autorización académica**
 
 #### Parte principal
 
-En el centro de la página encontrarás la parte principal. Aquí recibirás noticias de la escuela o información sobre fechas importantes que debes recordar.
+En el centro de la página encontrarás la parte principal. Aquí va a abrir los paginas en que el usuario ha hecho un clic en el menú.
+Tambien van a recibir noticias de la escuela o información sobre fechas importantes que debes recordar, cuando hay algonas.
 
-*Si no hay información debe ... *
-
-#### Descripciones consistentes
-Sería mejor tener estas descripciones más visibles para ayudar al usuario entender la función de cada opción, o tener un icon con "?" este símbolo para indicar que hay más información
-
-#### Notificación de tiempo para sesión
+#### Notificación de cuanto tiempo queda
 El SIGA debe notificar al usuario que su sesión estaría perdida por una falta de actividad para que el usuario pueda confirmar su presencia y continua la sesión y no pedir la sesión y entrar su información de nuevo.
 
-#### Obstáculos a la visibilidad de ficha
-Se debe requerer al usuario confirmar su identidad cuando quiera ver o cambiar las fichas.  En cualquier otro caso, se debe ocultar esta información.
-
-#### Butones con funcionalidad más clara
+#### Butones más claros en su función
 Mejor sería usar alguna referencia al mundo real, como una casa, al lado del texto "volver" y cambiar el "volver" al nombre de la pagína principal. En este manera, sería más fácil para el usuario para entender adonde en la página los butones le dirigen.
+
+#### Obstáculos a la visbilidad 
+Se debe requerer al usuario confirmar su identidad cuando quiera aceder y de nuevo modificar las fichas personales
 
 ## Definición de tareas
 **Tareas a cambiar, como funcionaba antes, como funciona ahora.**
