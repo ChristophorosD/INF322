@@ -160,6 +160,18 @@ En el centro de la página encontrarás la parte principal. Aquí recibirás not
 
 *Si no hay información debe ... *
 
+#### Descripciones consistentes
+Sería mejor tener estas descripciones más visibles para ayudar al usuario entender la función de cada opción, o tener un icon con "?" este símbolo para indicar que hay más información
+
+#### Notificación de tiempo para sesión
+El SIGA debe notificar al usuario que su sesión estaría perdida por una falta de actividad para que el usuario pueda confirmar su presencia y continua la sesión y no pedir la sesión y entrar su información de nuevo.
+
+#### Obstáculos a la visibilidad de ficha
+Se debe requerer al usuario confirmar su identidad cuando quiera ver o cambiar las fichas.  En cualquier otro caso, se debe ocultar esta información.
+
+#### Butones con funcionalidad más clara
+Mejor sería usar alguna referencia al mundo real, como una casa, al lado del texto "volver" y cambiar el "volver" al nombre de la pagína principal. En este manera, sería más fácil para el usuario para entender adonde en la página los butones le dirigen.
+
 ## Definición de tareas
 **Tareas a cambiar, como funcionaba antes, como funciona ahora.**
 
